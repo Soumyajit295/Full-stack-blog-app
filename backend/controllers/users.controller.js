@@ -5,7 +5,7 @@ import sendEmail from "../utils/sendEmail.js";
 
 const cookieOptions = {
     httpOnly: true,
-    secure: false,
+    secure: true,
 };
 
 export const register = async (req, res) => {

@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react() , pluginRewriteAll()],
   server : {
     proxy : {
-      '/api' : 'http://localhost:8000'
+      '/api' : 'https://blog-backend-rufy.onrender.com'
     }
   }
 })
