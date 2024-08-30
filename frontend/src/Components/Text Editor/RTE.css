@@ -1,0 +1,15 @@
+
+.custom-quill-editor .ql-container {
+    height: 400px; 
+}
+  
+  .custom-quill-editor .ql-toolbar {
+    border-bottom: 1px solid #4a4a4a; /* Customize toolbar appearance */
+    background-color: #333; /* Customize toolbar background */
+  }
+  
+  .custom-quill-editor .ql-editor {
+    background-color: #2d2d2d; /* Customize editor background */
+    color: #e0e0e0; /* Customize text color */
+  }
+  
